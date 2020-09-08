@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+html,
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.section-mall {
+	background-image: url(../images/homepage-mall-bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section-title {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 52px;
+}
+
+.section-title h1 {
+	position: relative;
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 4px;
+	color: #252b3a;
+}
+
+.section-title h2 {
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	color: #666a75;
+}
+
+.section-wrapper {
+	max-width: 1280px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.mall-app>ul {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.mall-app>ul:before,
+.mall-app>ul:after {
+	content: " ";
+	display: table;
+	box-sizing: inherit;
+}
+
+.mall-app>ul>li {
+	float: left;
+	width: 25%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.mall-app-card {
+	position: relative;
+	height: 470px;
+	overflow: hidden;
+	background-color: grey;
+	text-align: center;
+	cursor: pointer;
+}
+
+.mall-app-card-bg {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	transition: 0.2s;
+}
+
+.mall-app-card-top {
+	position: relative;
+	height: 50%;
+}
+
+.mall-app-card-top i {
+	display: block;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	left: 0;
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	transition: 0.2s;
+}
+
+.mall-app-card-top h2 {
+	position: absolute;
+	top: 175px;
+	right: 0;
+	left: 0;
+	font-size: 20px;
+	line-height: 28px;
+	color: #fff;
+	transition: 0.2s;
+}
+
+.mall-app-card-top h2:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	right: 0;
+	left: 0;
+	width: 0;
+	height: 4px;
+	margin: 15px auto;
+	background-color: #f66f6a;
+	transition: 0.2s 0.2s;
+}
+
+.mall-app-card-top p {
+	position: absolute;
+	top: 173px;
+	right: 0;
+	left: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 10px auto 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	opacity: 0;
+	transition: 0.2s;
+}
+
+.mall-app-card-bottom {
+	position: relative;
+	height: 50%;
+	padding-top: 50px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.mall-app-card-bottom li {
+	margin-bottom: 10px;
+}
+
+.mall-app-card-bottom li a:hover {
+	color: rgb(246, 111, 106);
+}
+
+.section-bottom {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.section-more-wrap {
+	text-align: center;
+}
+
+.section-more-wrap a {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666a75;
+	cursor: pointer;
+	user-select: none;
+	transition: 0.2s;
+}
+
+.section-more-wrap a:hover {
+	color: rgb(246, 111, 106);
+}
+
+.section-more-wrap a:hover i {
+	transform: translate3d(5px, 0px, 0px);
+}
+
+.section-more-wrap a .cui-icon {
+	margin-top: -2px;
+	margin-left: 10px;
+	transition: transform 0.2s;
+}
+
+.cui-icon {
+	font-family: 'cui-icon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.mall-app-card:hover .mall-app-card-bg {
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.mall-app-card:hover .mall-app-card-top i {
+	opacity: 0;
+}
+
+.mall-app-card:hover .mall-app-card-top h2 {
+	top: 85px;
+}
+
+.mall-app-card:hover .mall-app-card-top h2:before {
+	width: 68px;
+}
+
+.mall-app-card:hover .mall-app-card-top p {
+	margin-top: 0;
+	opacity: 1;
+}

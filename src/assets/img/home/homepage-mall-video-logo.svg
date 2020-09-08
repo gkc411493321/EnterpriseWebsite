@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>视频</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-929.000000, -573.000000)">
+            <g id="Group-23" transform="translate(929.000000, 573.000000)">
+                <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                <polygon id="Path-4" fill="#FFFFFF" fill-rule="nonzero" points="27 41 27 43 1 43 1 4 46 4 46 30 44 30 44 6 3 6 3 41"></polygon>
+                <rect id="Rectangle" fill="#FFFFFF" x="6" y="9" width="2" height="2"></rect>
+                <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="10" y="9" width="2" height="2"></rect>
+                <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="14" y="9" width="2" height="2"></rect>
+                <polygon id="Path-18" fill="#FFFFFF" fill-rule="nonzero" points="3 15 3 14 44 14 44 15"></polygon>
+                <polygon id="Path-19" fill="#FFFFFF" fill-rule="nonzero" points="14.6880561 16.5200612 15.5166314 17.0799388 8.41428768 27.5908567 7.58571232 27.0309791"></polygon>
+                <polygon id="Path-19-Copy" fill="#FFFFFF" fill-rule="nonzero" points="14.6880561 22.1200612 15.5166314 22.6799388 8.41428768 33.1908567 7.58571232 32.6309791"></polygon>
+                <polygon id="Path-19-Copy-2" fill="#FFFFFF" fill-rule="nonzero" points="20.2880561 19.7200612 21.1166314 20.2799388 14.0142877 30.7908567 13.1857123 30.2309791"></polygon>
+                <path d="M30.0726563,24.2431439 L30.0726563,42.1568561 L43.846155,33.2 L30.0726563,24.2431439 Z" id="Path-5" stroke="#FFFFFF" stroke-width="2"></path>
+            </g>
+            <g id="Group-33" transform="translate(832.000000, 573.000000)"></g>
+        </g>
+    </g>
+</svg>

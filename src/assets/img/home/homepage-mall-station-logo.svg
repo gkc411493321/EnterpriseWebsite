@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>智能制造</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1026.000000, -573.000000)">
+            <g id="Group-36" transform="translate(1026.000000, 573.000000)">
+                <rect id="Rectangle-Copy-4" x="0" y="0" width="48" height="48"></rect>
+                <polygon id="Path-4-Copy" fill="#FFFFFF" fill-rule="nonzero" points="21 36 2 36 1 36 1 4 46 4 46 25 44 25 44 6 3 6 3 34 23 34 23 43 21 43"></polygon>
+                <path d="M41.4617435,35.9800986 C43.8302549,35.7746664 45.6,34.0250579 45.6,32 C45.6,29.8292319 43.574779,28 41,28 L39.4,28 L39.4,26.4 C39.4,24.2292319 37.374779,22.4 34.8,22.4 C32.225221,22.4 30.2,24.2292319 30.2,26.4 L30.2,28 L28.6,28 C26.025221,28 24,29.8292319 24,32 C24,34.1707681 26.025221,36 28.6,36 C28.6515336,36 28.7029442,35.9992643 28.7542205,35.9977966 L30.4,35.950688 L30.4,36 L41.2322917,36 L41.4617435,35.9800986 Z M28.4,37.5971415 C25.0683967,37.5017781 22.4,35.0323511 22.4,32 C22.4,28.9072054 25.1758346,26.4 28.6,26.4 C28.6,23.3072054 31.3758346,20.8 34.8,20.8 C38.2241654,20.8 41,23.3072054 41,26.4 C44.4241654,26.4 47.2,28.9072054 47.2,32 C47.2,34.9099709 44.7426404,37.301538 41.6,37.574114 L41.6,37.6 L28.8000818,37.6 L28.4,37.5971415 Z" id="Combined-Shape-Copy-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polyline id="Path-14" stroke="#FFFFFF" points="32 31.2 34 32.8 37.3058594 29.6"></polyline>
+                <polygon id="Path-18-Copy" fill="#FFFFFF" fill-rule="nonzero" points="8 14 8 13 30 13 30 14"></polygon>
+                <polygon id="Path-18-Copy-2" fill="#FFFFFF" fill-rule="nonzero" points="8 24 8 23 20 23 20 24"></polygon>
+                <path d="M12,42.8 L35.2,42.8" id="Path-6" stroke="#FFFFFF" stroke-width="2"></path>
+            </g>
+            <g id="Group-33" transform="translate(832.000000, 573.000000)"></g>
+        </g>
+    </g>
+</svg>

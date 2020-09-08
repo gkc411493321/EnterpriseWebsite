@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>智慧城市</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-832.000000, -573.000000)">
+            <g id="Group-33" transform="translate(832.000000, 573.000000)">
+                <rect id="Rectangle-Copy-7" x="0" y="0" width="48" height="48"></rect>
+                <polygon id="Path-4-Copy-2" fill="#FFFFFF" fill-rule="nonzero" points="3 40 27 40 27 42 1 42 1 4 46 4 46 24 44 24 44 6 3 6"></polygon>
+                <path d="M32,26 L32,42 L45,42 L45,30 L41,26 L32,26 Z M30,24 L42,24 L47,29 L47,44 L30,44 L30,24 Z" id="Rectangle" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polygon id="Path-10" fill="#FFFFFF" fill-rule="nonzero" points="45 30.0566038 45 31 40 31 40 26 40.9610331 26 40.9610331 30.0566038"></polygon>
+                <polyline id="Path-7" stroke="#FFFFFF" points="2.4 28.5980469 9.45546875 21.8390625 13.5878906 26.4 20.5374407 20.028125 23.975 24.1589844 35.665625 12.8"></polyline>
+                <polyline id="Path-8" stroke="#FFFFFF" points="32 12.8 35.6398437 12.8 35.6398437 16"></polyline>
+                <polygon id="Path-9" fill="#FFFFFF" fill-rule="nonzero" points="34 34 34 33 40 33 40 34"></polygon>
+                <polygon id="Path-9-Copy" fill="#FFFFFF" fill-rule="nonzero" points="34 38 34 37 40 37 40 38"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
