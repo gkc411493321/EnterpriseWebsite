@@ -106,6 +106,7 @@
 	
 	.footer-up-right{
 		text-align: center;
+		margin: auto;
 	}
 	.footer-up-right-img img{
 		width: 50%;
