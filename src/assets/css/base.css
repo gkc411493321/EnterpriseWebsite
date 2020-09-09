@@ -27,6 +27,7 @@ body {
   /* rem vw/vh */
   width: 100vw;
 	overflow-y: overlay;
+	background-color: #FFFFFF;
 }
 
 a {
@@ -59,4 +60,5 @@ a {
 	width: 100%;
 	max-width: 1920px;
 	margin: auto;
+	padding: 30px;
 }

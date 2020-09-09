@@ -6,7 +6,7 @@ const Introduction = () => import('views/introduction/Introduction')
 const Product = () => import('views/product/Product')
 const About = () => import('views/about/About')
 const News = () => import('views/news/News')
-const JoinUs = () => import('views/joinUs/JoinUs')
+const Join = () => import('views/join/Join')
 
 Vue.use(VueRouter)
 
@@ -50,8 +50,8 @@ const routes = [{
 		},
 	},
 	{
-		path: '/joinUs',
-		component: JoinUs,
+		path: '/join',
+		component: Join,
 		meta: {
 			title: "加入我们"
 		},
@@ -60,6 +60,7 @@ const routes = [{
 
 const router = new VueRouter({
 	routes,
+	base:'/vue/',
 	mode: 'history'
 })
 

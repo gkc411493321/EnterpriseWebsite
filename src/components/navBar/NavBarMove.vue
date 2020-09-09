@@ -8,13 +8,13 @@
 		</div>
 		<div class="move-icon"></div>
 		<el-drawer :custom-class="eldrawer" :show-close="false" :z-index="-1" :visible.sync="drawer" 
-			:direction="direction" :before-close="handleClose">
-			<div>首页</div>
-			<div>新闻中心</div>
-			<div>公司简介</div>
-			<div>产品中心</div>
-			<div>关于我们</div>
-			<div>加入我们</div>
+			:direction="direction" :before-close="handleClose" :modal="false">
+			<div @click="home">首页</div>
+			<div @click="introduction">公司简介</div>
+			<div @click="news">新闻中心</div>
+			<div @click="product">产品中心</div>
+			<div @click="about">关于我们</div>
+			<div @click="join">加入我们</div>
 		</el-drawer>
 	</div>
 
@@ -33,7 +33,25 @@
 		methods: {
 			handleClose(done) {
 				done()
-			}
+			},
+			home() {
+				this.$router.replace("/home")
+			},
+			news() {
+				this.$router.replace("/news")
+			},
+			introduction() {
+				this.$router.replace("/introduction")
+			},
+			product() {
+				this.$router.replace("/product")
+			},
+			join() {
+				this.$router.replace("/join")
+			},
+			about() {
+				this.$router.replace("/about")
+			},
 		}
 	}
 </script>
@@ -78,7 +96,8 @@
 	}
 	.eldrawer{
 		background-color: var(--color-background);
-		min-height: 38%;
+		min-height: 335px;
+		padding-top: 35px;
 		text-align: center;
 	}
 </style>
