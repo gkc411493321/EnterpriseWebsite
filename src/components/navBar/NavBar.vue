@@ -29,12 +29,13 @@
 <style >
 	.navbar{
 		width: 100%;
-		height: 100px;
+		height: 80px;
 		display: flex;
 		z-index: 999;
 	}
 	.navbar-logo{
 		width: 20%;
+		margin: auto;
 	}
 	.navbar-cell{
 		margin-right: 10%;
@@ -44,7 +45,7 @@
 	}
 	.navbar-logo img{
 		width: 160px;
-		padding-top: 20px;
+		
 	}
 	
 </style>

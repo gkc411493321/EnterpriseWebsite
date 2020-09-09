@@ -10,7 +10,8 @@ const Join = () => import('views/join/Join')
 
 Vue.use(VueRouter)
 
-const routes = [{
+const routes = [
+	{
 		path: '',
 		redirect: '/home'
 	},

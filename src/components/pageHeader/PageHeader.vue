@@ -127,6 +127,7 @@
   .nav {
   	width: 100%;
   	position: fixed;
+		height: 80px;
   	top: 0;
   	z-index: 999;
   }
@@ -182,7 +183,7 @@
 			background-color: rgba(4 210 200, 0.8);
 		}
 		100% {
-			background-color: var(--color-background);
+			background-color: #313645;
 		}
 	}
 </style>

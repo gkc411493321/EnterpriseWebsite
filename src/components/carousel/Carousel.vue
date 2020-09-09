@@ -1,6 +1,7 @@
 <template>
 	<div class="block" ref="homePage">
-		<el-carousel :height="clientHeight+'px'" >
+		<el-carousel :height="clientHeight+'px'">
+			<!-- <el-carousel :height="600+'px'" > -->
 			<el-carousel-item v-for="(item, index) of num " :key="index">
 				<div class="carousel-text">
 					<div class="carousel-text-max">DEMO-TEST</div>
@@ -15,7 +16,7 @@
 						<el-button class="el-buttons" type="primary" round>查看详情</el-button>
 					</div>
 				</div>
-				<img src="~assets/img/image-03-1200x800.jpg" />
+				<img src="~assets/img/bg-4.jpg" />
 			</el-carousel-item>
 		</el-carousel>
 	</div>

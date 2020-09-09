@@ -1,83 +1,87 @@
 <template>
-  <div class="wrap">
-    <div ref="box" class="box">
-      <div ref="marquee" class="marquee">{{text}}</div>
-      <div ref="copy" class="copy"></div>
-    </div>
-    <div ref="node" class="node">{{text}}</div>
-  </div>
+	<div class="wrap">
+		<div ref="box" class="box">
+			<div ref="marquee" class="marquee">{{text}}</div>
+			<div ref="copy" class="copy"></div>
+		</div>
+		<div ref="node" class="node">{{text}}</div>
+	</div>
 </template>
 <script>
-export default {
-  name : 'Marquee',
-  props: ['lists'], // 父组件传入数据， 数组形式 [ "连雨不知春去","一晴方觉夏深"]
-  data () {
-    return {
-      text: '' // 数组文字转化后的字符串
-    }
-  },
-  methods: {
-    move () {
-      // 获取文字text 的计算后宽度  （由于overflow的存在，直接获取不到，需要独立的node计算）
-      let width = this.$refs.node.getBoundingClientRect().width
-			// 文字副本填充
-      this.$refs.copy.innerText = this.text 
-			// 位移距离
-      let distance = 0 
-      // 设置位移
-      setInterval(() => {
-        distance = distance - 1
-        // 如果位移超过文字宽度，则回到起点
-        if (-distance >= width) {
-          distance = 16
-        }
-        this.$refs.box.style.transform = 'translateX(' + distance + 'px)'
-      }, 20)
-    }
-  },
-  // 把父组件传入的arr转化成字符串
-  mounted: function () {
-    for (let i = 0; i < this.lists.length; i++) {
-      this.text += ' ' + this.lists[i]
-    }
-  },
-  // 更新的时候运动
-  updated: function () {
-    this.move()
-  }
-}
+	export default {
+		name: 'Marquee',
+		props: ['lists'], // 父组件传入数据， 数组形式 [ "连雨不知春去","一晴方觉夏深"]
+		data() {
+			return {
+				text: '' // 数组文字转化后的字符串
+			}
+		},
+		methods: {
+			move() {
+				// 获取文字text 的计算后宽度  （由于overflow的存在，直接获取不到，需要独立的node计算）
+				let width = this.$refs.node.getBoundingClientRect().width
+				// 文字副本填充
+				this.$refs.copy.innerText = this.text
+				// 位移距离
+				let distance = 0
+				// 设置位移
+				const timer = setInterval(() => {
+					distance = distance - 1
+					// 如果位移超过文字宽度，则回到起点
+					if (-distance >= width) {
+						distance = 16
+					}
+					this.$refs.box.style.transform = 'translateX(' + distance + 'px)'
+				}, 20)
+					this.$once('hook:beforeDestroy', () => {
+					clearInterval(timer)
+				})
+			}
+		},
+		// 把父组件传入的arr转化成字符串
+		mounted() {
+			for (let i = 0; i < this.lists.length; i++) {
+				this.text += ' ' + this.lists[i]
+			}
+		},
+		// 更新的时候运动
+		updated() {
+			this.move()
+		},
+	}
 </script>
 <style scoped>
-
-@media screen and (max-width:1000px) {
-	.wrap{
-		font-size: 15px;
+	@media screen and (max-width:1000px) {
+		.wrap {
+			font-size: 15px;
+		}
 	}
-}
-@media screen and (min-width:1000px) {
-	.wrap{
-		font-size: 30px;
+
+	@media screen and (min-width:1000px) {
+		.wrap {
+			font-size: 30px;
+		}
 	}
-}
-.wrap {
-  overflow: hidden;
-}
 
-.box {
-  width: 80000%;
-}
+	.wrap {
+		overflow: hidden;
+	}
 
-.box div {
-  float: left;
-}
+	.box {
+		width: 80000%;
+	}
 
-.marquee {
-   margin: 0 16px 0 0;
-}
+	.box div {
+		float: left;
+	}
 
-.node {
-  position: absolute;
-  z-index: -999;
-  top: -999999px;
-}
+	.marquee {
+		margin: 0 16px 0 0;
+	}
+
+	.node {
+		position: absolute;
+		z-index: -999;
+		top: -999999px;
+	}
 </style>

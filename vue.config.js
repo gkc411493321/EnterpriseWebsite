@@ -11,7 +11,7 @@ module.exports = {
 			}
 		}
 	},
-	publicPath: process.env.NODE_ENV === "production" ? "/vue/" : "/",
+	/* publicPath: process.env.NODE_ENV === "production" ? "/vue/" : "/",
 	devServer: {
 		host: "47.102.101.45",
 		port: 80,
@@ -20,6 +20,6 @@ module.exports = {
 		proxy: {
 			
 		},
-	}
+	} */
 	
 }

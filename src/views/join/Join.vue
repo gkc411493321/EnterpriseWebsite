@@ -25,7 +25,7 @@
 	import AdvantageItem from 'views/home/childComponents/AdvantageItem.vue'
 	
   export default{
-    name:"JoinUs",
+    name:"Join",
 		components:{
 			PageHeader,
 			PageFooter,
